@@ -16,7 +16,6 @@ class PartyButton:
     def __init__(self):
         
         self._board = Board()
-        #self._fileplayer = FilePlayer()
         self._board.button.when_pressed = self._on_button_press
         self._board.button.when_released = self._on_button_release
         self._coretopic = "home/partybutton/"
